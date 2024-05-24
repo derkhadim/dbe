@@ -6,6 +6,8 @@
 .card > img {
   width: 100%;
   border-radius: 8px 8px 0 0;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 .card .caption {
@@ -16,4 +18,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.price p span {
+  font-weight: 600;
+  color: var(--gray);
+  text-decoration: line-through;
 }
