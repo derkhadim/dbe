@@ -1,0 +1,11 @@
+:root {
+  --black: #2E0C19;
+  --main-color: #D72D5C;
+  --gray: #937F87;
+}
+
+body {
+  background-color: #F1EEE7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}

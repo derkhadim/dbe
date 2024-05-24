@@ -1,0 +1,13 @@
+.page-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--black)
+}
+
+.hero {
+  background-image: url('../images/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 center;
+  padding: 100px 0;
+}
