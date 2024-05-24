@@ -11,3 +11,33 @@
   background-position: 0 center;
   padding: 100px 0;
 }
+
+.form-wrapper {
+  background-color: white;
+  display: inline-block;
+  border-radius: 60px;
+  overflow: hidden;
+
+  /* Commentaire */
+  border: 1px solid red;
+}
+
+.form-wrapper input {
+  height: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: none;
+}
+
+.form-wrapper input:focus {
+  outline: none;
+}
+
+.form-wrapper .form-btn {
+  background-color: var(--main-color);
+  height: 48px;
+  width: 48px;
+  border-radius: 48px;
+  border: none;
+  margin-right: 6px;
+}
